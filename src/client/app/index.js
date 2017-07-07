@@ -1,18 +1,8 @@
-import React from 'react';
+import React from "react";
 import {render} from "react-dom";
+import Layout from "./components/Layout"
 
-import AwesomeComponent from './AwesomeComponent.js';
-// ...
-class App extends React.Component {
-    render () {
-        return (
-            <div>
-                <p> Hello React!</p>
-                <AwesomeComponent />
-            </div>
-        );
-    }
-}
-const app =document.getElementById('app');
 
-render(<App/>,app);
+const app = document.getElementById('app');
+
+render(<Layout/>,app);
