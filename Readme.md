@@ -10,3 +10,4 @@ Make webpack.config.js:-
 <pre>touch webpack.config.js</pre>
 Run webpack:-
 <pre>webpack</pre>
+

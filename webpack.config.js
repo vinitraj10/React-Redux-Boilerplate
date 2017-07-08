@@ -8,7 +8,16 @@ var config = {
     entry:APP_DIR + '/index.js',
     output : {
         path:BUILD_DIR,
-        filename:'bundle.js'
+        filename:'bundle.min.js'
+    },
+    module:{
+        loaders:[
+            {
+                test:/\.jsx?/,
+                include:APP_DIR,
+                loader:"babel-loader"
+            }
+        ]
     }
 };
 
