@@ -1,0 +1,1 @@
+//The function which take place in client side 
