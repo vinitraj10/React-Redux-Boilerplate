@@ -1,1 +1,1 @@
-//The function which take place in client side 
+// function that needs to be dispatched on user actions
